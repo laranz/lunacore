@@ -1,0 +1,22 @@
+{
+    "name": "laranz/lunacore",
+    "description": "Awesome companion plugin for Luna Framework.",
+    "type": "project",
+    "license": "GPL",
+    "autoload": {
+        "psr-4": {
+            "Luna\\": "./inc"
+        },
+        "classmap": [
+            "./inc"
+        ]
+    },
+    "authors": [
+        {
+            "name": "laranz",
+            "email": "laranz.joe@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
