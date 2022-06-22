@@ -69,11 +69,12 @@ register_deactivation_hook( __FILE__, 'deactivate_luna_core' );
 /**
  * Run, Forest, Run!
  *
- * Since everything within the plugin is registered via
- * register_services() function.
+ * Since everything within the plugin is registered in
+ * the Init class under ready() function, we can call
+ * run() function to initialize all things.
  *
  * @since    0.1.0
  */
 if ( class_exists( 'Luna\\Init' ) ) {
-	Luna\Init::register_services();
+	Luna\Init::run();
 }

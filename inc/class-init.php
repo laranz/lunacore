@@ -26,8 +26,9 @@ final class Init {
 	 *
 	 * @return array full list of classes.
 	 */
-	public static function get_services() {
+	public static function ready() {
 		$classlist = array(
+			Base\Plugin_Action_Links::class,
 			Pages\Dashboard::class,
 		);
 		return $classlist;
@@ -39,11 +40,13 @@ final class Init {
 	 * initiate them, and if it has a "register" function
 	 * call it!
 	 */
-	public static function register_services() {
-		foreach ( self::get_services() as $class ) {
-			$service = self::initiate_class( $class );
-			if ( method_exists( $service, 'register' ) ) {
-				$service->register();
+	public static function run() {
+		foreach ( self::ready() as $class ) {
+			if ( class_exists( $class ) ) {
+				$service = self::initiate_class( $class );
+				if ( method_exists( $service, 'register' ) ) {
+					$service->register();
+				}
 			}
 		}
 	}

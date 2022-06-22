@@ -24,6 +24,8 @@ class ComposerStaticInit5ef77963872aa4a53396843ed93eb5f7
         'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
         'Luna\\Base\\Activate' => __DIR__ . '/../..' . '/inc/Base/class-activate.php',
         'Luna\\Base\\Deactivate' => __DIR__ . '/../..' . '/inc/Base/class-deactivate.php',
+        'Luna\\Base\\Plugin_Action_Links' => __DIR__ . '/../..' . '/inc/Base/class-plugin-action-links.php',
+        'Luna\\Extend\\AdminMenu' => __DIR__ . '/../..' . '/inc/Extend/class-adminmenu.php',
         'Luna\\Init' => __DIR__ . '/../..' . '/inc/class-init.php',
         'Luna\\Pages\\Dashboard' => __DIR__ . '/../..' . '/inc/Pages/class-dashboard.php',
     );

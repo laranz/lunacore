@@ -6,4 +6,4 @@
  * @since 0.1.0
  */
 
-// You shall not pass.
+// What we think, we become. – Buddha.

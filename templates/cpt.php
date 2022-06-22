@@ -2,8 +2,12 @@
 /**
  * __pluginname
  *
+ * Template file for the Dashboard page.
+ *
  * @package __packagename
  * @since 0.1.0
  */
 
-// Let the beauty of what you love be what you do.
+?>
+
+<h1>CPT Settings.</h1>

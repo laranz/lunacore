@@ -9,6 +9,8 @@ return array(
     'Composer\\InstalledVersions' => $vendorDir . '/composer/InstalledVersions.php',
     'Luna\\Base\\Activate' => $baseDir . '/inc/Base/class-activate.php',
     'Luna\\Base\\Deactivate' => $baseDir . '/inc/Base/class-deactivate.php',
+    'Luna\\Base\\Plugin_Action_Links' => $baseDir . '/inc/Base/class-plugin-action-links.php',
+    'Luna\\Extend\\AdminMenu' => $baseDir . '/inc/Extend/class-adminmenu.php',
     'Luna\\Init' => $baseDir . '/inc/class-init.php',
     'Luna\\Pages\\Dashboard' => $baseDir . '/inc/Pages/class-dashboard.php',
 );

@@ -6,4 +6,4 @@
  * @since 0.1.0
  */
 
-// Let the beauty of what you love be what you do.
+// Don’t tell people your plans. Show them your results.

@@ -6,4 +6,4 @@
  * @since 0.1.0
  */
 
-// You shall not pass.
+// Have enough courage to start and enough heart to finish.

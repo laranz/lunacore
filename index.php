@@ -6,4 +6,4 @@
  * @since 0.1.0
  */
 
-// You shall not pass.
+// If you want it, work for it.
