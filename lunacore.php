@@ -39,6 +39,8 @@ define( 'LUNA_BASE_URL', plugin_dir_url( __FILE__ ) );
 define( 'LUNA_BASENAME', plugin_basename( __FILE__ ) );
 // Constant for plugin's assets directory.
 define( 'LUNA_ASSETS', plugin_dir_url( __FILE__ ) . 'assets/' );
+// Constant for admin views folder path.
+define( 'LUNA_VIEWS_ADMIN', plugin_dir_path( __FILE__ ) . 'views/admin/' );
 
 
 /**

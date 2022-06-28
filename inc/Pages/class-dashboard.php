@@ -46,7 +46,7 @@ class Dashboard {
 	/**
 	 * This register() runs first during the initialization
 	 * of this class in inc\class-init.php.
-	 * Consider this as a __contstructor.
+	 * Consider this as a __constructor.
 	 *
 	 * @since    0.1.0
 	 */
@@ -113,7 +113,7 @@ class Dashboard {
 	 * @since    0.1.0
 	 */
 	public function render_dashboard_template() {
-		require_once LUNA_BASE_PATH . '/templates/dashboard.php';
+		require_once LUNA_VIEWS_ADMIN . 'dashboard.php';
 	}
 
 	/**
@@ -122,7 +122,7 @@ class Dashboard {
 	 * @since    0.1.0
 	 */
 	public function render_cpt_template() {
-		require_once LUNA_BASE_PATH . '/templates/cpt.php';
+		require_once LUNA_VIEWS_ADMIN . 'cpt.php';
 	}
 
 	/**
@@ -131,6 +131,6 @@ class Dashboard {
 	 * @since    0.1.0
 	 */
 	public function render_block_template() {
-		require_once LUNA_BASE_PATH . '/templates/block.php';
+		require_once LUNA_VIEWS_ADMIN . 'block.php';
 	}
 }

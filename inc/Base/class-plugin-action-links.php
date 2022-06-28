@@ -25,7 +25,7 @@ class Plugin_Action_Links {
 	/**
 	 * This register() runs first during the initialization
 	 * of this class in inc\class-init.php.
-	 * Consider this as a __contstructor.
+	 * Consider this as a __constructor.
 	 *
 	 * @since    0.1.0
 	 */

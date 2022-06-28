@@ -37,7 +37,7 @@ class AdminMenu {
 	/**
 	 * This register() runs first during the initialization
 	 * of this class in inc\class-init.php.
-	 * Consider this as a __contstructor.
+	 * Consider this as a __constructor.
 	 *
 	 * @since    0.1.0
 	 */
@@ -51,7 +51,7 @@ class AdminMenu {
 	 * Function to add admin pages
 	 *
 	 * @param array $pages | Page list.
-	 * @return SettingsApi object for chaining.
+	 * @return AdminMenu object for chaining.
 	 */
 	public function add_pages( array $pages ) {
 		$this->admin_pages = $pages;
@@ -63,7 +63,7 @@ class AdminMenu {
 	 *
 	 * @param array $pages | Page list.
 	 *
-	 * @return SettingsApi object for chaining.
+	 * @return AdminMenu object for chaining.
 	 */
 	public function add_subpages( array $pages ) {
 		$this->admin_subpages = array_merge( $this->admin_subpages, $pages );
@@ -75,7 +75,7 @@ class AdminMenu {
 	 *
 	 * @param string $title | Title for the subpage.
 	 *
-	 * @return SettingsApi object for chaining.
+	 * @return AdminMenu object for chaining.
 	 */
 	public function with_subpage( $title = '' ) {
 		if ( empty( $this->admin_pages ) ) {
